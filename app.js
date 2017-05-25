@@ -23,7 +23,10 @@ if (process.env.NODE_ENV == "production") {
 //Path
 var users = require(__dirname + '/api/users.js');
 
-
+app.get('/', function(req, res) {
+    res.end('Welcome to apimodeules');
+    return;
+})
 app.set('port', process.env.PORT || 3000);
 
 app.use(bodyParser.urlencoded({
