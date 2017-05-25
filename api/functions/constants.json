@@ -1,0 +1,88 @@
+{
+    "serverKey": "AIzaSyDh0eDHt1E0RLicEzC-D5ynEwMJf4GvIT4",
+
+    "error": {
+        "msg_connection_fail": {
+            "code": 200,
+            "status": "Error",
+            "message": "Connection Error"
+        },
+        "msg_empty_param": {
+            "code": 200,
+            "status": "Error",
+            "message": "Parameters should not be empty."
+
+        },
+        "msg_selectdata_fail": {
+            "code": 200,
+            "status": "Error",
+            "message": "Can not Select Data From Table"
+        },
+        "msg_invalid_param": {
+
+            "result": "Error",
+            "message": "Invalid request parameters."
+
+        },
+
+
+
+        "msg_reg_failure": {
+
+            "result": "error",
+            "message": "Registration failure."
+
+        },
+
+        "msg_reg_exists": {
+
+            "result": "error",
+            "message": "Device already registered."
+
+        },
+
+        "msg_del_failure": {
+
+            "result": "error",
+            "message": "Unable to remove device"
+
+        },
+
+        "msg_send_failure": {
+
+            "result": "error",
+            "message": "Unable to send message"
+
+        }
+
+    },
+
+    "success": {
+        "msg_connection_success": {
+            "code": 200,
+            "status": "Success",
+            "message": "Connection successfully..."
+        },
+
+        "msg_reg_success": {
+
+            "result": "success",
+            "message": "Device successfully registered."
+
+        },
+
+        "msg_del_success": {
+
+            "result": "success",
+            "message": "Device successfully removed"
+
+        },
+
+        "msg_send_success": {
+
+            "result": "success",
+            "message": "Message successfully sent !"
+
+        }
+    }
+}
